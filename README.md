@@ -1,2 +1,3 @@
-# Javascript Review Project by Wilson A. Gayo 
+# Full-Stack Prototype
 
+Student Build Project
