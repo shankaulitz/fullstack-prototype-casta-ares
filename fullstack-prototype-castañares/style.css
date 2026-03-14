@@ -1,0 +1,22 @@
+/* Phase 1: CSS Rules */
+.page { display: none; }
+.page.active { display: block; }
+
+/* Auth State Toggling */
+body.not-authenticated .user-only,
+body.not-authenticated .is-admin-only {
+    display: none !important;
+}
+
+body.authenticated .guest-only {
+    display: none !important;
+}
+
+body:not(.is-admin) .is-admin-only {
+    display: none !important;
+}
+
+/* Custom badges */
+.badge-pending { background-color: #ffc107; }
+.badge-approved { background-color: #198754; }
+.badge-rejected { background-color: #dc3545; }
